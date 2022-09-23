@@ -1,5 +1,5 @@
 # RSI-Divergence
-Finding the divergence of the gold market based on the RSI indicator. It is one of the trading strategies. Tested and obtained percentage: 75% winning rate.
+Finding the divergence of the gold market(XAUUSD) based on the RSI indicator. It is one of the trading strategies. Tested and obtained percentage: 75% winning rate.
 
 ## Results
 
@@ -26,4 +26,4 @@ pip install pandas
 A summary of explanations about libraries:
 * The `pandas` helps to Implementation of mathematics and algorithms.
 * The `numpy` it makes it easy to do math and work with matrices.
-* The `matplotlib` Python  library helps to Visualiz Data.
+* The `matplotlib` Python  library helps to Visualize Data.
