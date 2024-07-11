@@ -1,4 +1,4 @@
-# RSI-Divergence
+# RSI-Divergence 🚀
 Finding the divergence of the gold market(XAUUSD) based on the RSI indicator. It is one of the trading strategies. Tested and obtained percentage: 75% winning rate.
 
 ### Requirements
