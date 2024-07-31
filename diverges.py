@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import combinations
-
 from objectes import Indicators
 
 EPSILON_DECAY = 20
