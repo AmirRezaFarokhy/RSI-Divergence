@@ -1,6 +1,5 @@
 # RSI-Divergence 🚀
 Finding the divergence of the gold market(XAUUSD) based on the RSI indicator. It is one of the trading strategies. Tested and obtained percentage: 75% winning rate.
-
 ### Requirements
 Running `RSI-Divergence-python` requires:
 * Python 3.8 (tested under Python 3.10.4)
