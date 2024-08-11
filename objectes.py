@@ -16,7 +16,7 @@ class Indicators:
                     (abs(self.low-self.close)).to_numpy())).T, axis=1)
         return pd.Series(tr).rolling(number_range).mean().to_numpy()
 
-
+    # Get RSI indicator for work with our logic
     def RSI(self, periods=14, ema=True):
         close_delta = self.close.diff()
 
