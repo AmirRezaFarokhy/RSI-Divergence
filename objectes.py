@@ -9,7 +9,7 @@ class Indicators:
         self.low = lows
         self.high = highs
 
-    # Returns ATR values
+    # Returns ATR values for set target point and stop loss
     def AverageTrueRange(self, number_range=14, ema=True):
         tr = np.amax(np.vstack(((self.high-self.low).to_numpy(), 
                     (abs(self.high-self.close)).to_numpy(), 
