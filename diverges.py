@@ -86,7 +86,6 @@ df = CreatUpperDowner()
 sub_d, sub_u = CalculateSubsetes()
 df = TrainDataFrame()
 
-
 fig, (ax, ax1) = plt.subplots(2, 1, gridspec_kw={'height_ratios': [3, 1]}, figsize=(32, 20)) 
 chandlesPlot(df.index, df["open"], 
              df["high"], df["low"], 
