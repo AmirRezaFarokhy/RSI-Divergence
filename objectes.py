@@ -9,7 +9,6 @@ class Indicators:
         self.low = lows
         self.high = highs
 
-
     # Returns ATR values
     def AverageTrueRange(self, number_range=14, ema=True):
         tr = np.amax(np.vstack(((self.high-self.low).to_numpy(), 
