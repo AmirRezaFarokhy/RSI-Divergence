@@ -7,7 +7,6 @@ from objectes import Indicators
 EPSILON_DECAY = 20
 SLOPES_DECAY = 0.008
 
-
 # Create Up vs Down in RSI Indicator 
 def CreatUpperDowner():
     df["up"] = np.NaN
