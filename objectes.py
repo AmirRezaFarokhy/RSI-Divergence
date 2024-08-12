@@ -56,7 +56,7 @@ class Indicators:
         Kstoc = df['%K']
         return Kstoc, Dstoc
 
-
+    # Get MACD Indicator for testing other algoritm
     def MACD(self, price, slow, fast, smooth):
         exp1 = price.ewm(span=fast, adjust=False).mean()
         exp2 = price.ewm(span=slow, adjust=False).mean()
