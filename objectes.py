@@ -47,7 +47,7 @@ class Indicators:
         Lower = MA - std*STD
         return Upper, Lower
 
-
+    # Get Stochastic Gradient Descent
     def stocastic(self, df ,k_period=14, d_period=3, col="BTC"):
         df['n_high'] = self.high.rolling(k_period).max()
         df['n_low'] = self.low.rolling(k_period).min()
