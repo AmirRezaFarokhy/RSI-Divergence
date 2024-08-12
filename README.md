@@ -8,7 +8,6 @@ Running `RSI-Divergence-python` requires:
 * pandas 1.4.2
 * matplotlib 3.5.1
 
-
 ### Installation
 In order to test the script please run the following commands:
 ```sh
