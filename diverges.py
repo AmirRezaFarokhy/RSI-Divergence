@@ -19,7 +19,6 @@ def CreatUpperDowner():
 
     return df
 
-
 # Split Up vs Down in RSI Indicator and all subsets from lists
 def CalculateSubsetes():
     get_d = []
